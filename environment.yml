@@ -1,0 +1,9 @@
+name: audio_to_text
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - ffmpeg>=7
+  - pip
+  - pip:
+      - -e .
